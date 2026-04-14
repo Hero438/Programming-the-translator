@@ -1,6 +1,4 @@
 from googletrans import Translator, LANGUAGES
-translator_text = Translator().translate("안녕하세요.", dest="ru").text
-print(translator_text)
 
 title = "Music’s Impact and Influence on Everyday Life"
 author = "Bryleigh Conley, Reporter"
@@ -26,7 +24,7 @@ Whenever you listen to music whether it be live or not, you can always find new 
 
 Even though my taste in music has changed and yours may too, it’s still comforting and almost nostalgic listening to that one artist, just like how we still listen to music from when we were younger to remember the past, especially the one who helped my younger self and being able to see just how much I have improved and matured since then. I don’t know where I would be now if I hadn’t found her."""
 full_article = f"{title}\n\n\n{author}\n{date}\n\n\n{text}"
-print(full_article)
+
 
 print("Cписок языков:")
 for key, lang in LANGUAGES.items():
